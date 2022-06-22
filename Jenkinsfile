@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("welcome"){
             steps{
-                git branch: 'main', url: 'https://github.com/chandrabujur/hello.git'
+                git branch: 'main', url: 'https://github.com/chandrabujur/jenkins-repo'
             }
         }
     }
